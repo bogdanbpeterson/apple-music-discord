@@ -1,0 +1,14 @@
+[project]
+name = "apple-music-discord"
+version = "0.1.0"
+description = "Apple Music Discord Rich Presence integration"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+apple-music-discord = "apple_music_discord.main:main"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
